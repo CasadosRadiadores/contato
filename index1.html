@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa dos Radiadores</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #228B22; /* Verde folha */
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-family: 'Playfair Display', serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            font-family: 'League Spartan', sans-serif;
+            color: red;
+            font-size: 32px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            max-width: 90%;
+        }
+
+        .link-container {
+            width: 100%;
+            max-width: 400px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .link {
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 12px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            width: 100%;
+            transition: 0.3s;
+        }
+
+        .link:hover {
+            background-color: rgba(255, 255, 255, 0.4);
+        }
+
+        .icon {
+            width: 28px;
+            height: 28px;
+        }
+
+        .address {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        /* Responsividade */
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 28px;
+            }
+            p {
+                font-size: 16px;
+            }
+            .link {
+                font-size: 16px;
+                padding: 10px;
+            }
+            .icon {
+                width: 24px;
+                height: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    	<h1>
+    		<img src="https://i.imgur.com/9lWEFOL.png" alt="Casa dos Radiadores" style="max-width: 100%; height: auto;">
+	</h1>
+
+
+    <p>Somos uma empresa especializada na fabricação de radiadores de todos os portes, atendendo desde veículos leves até equipamentos industriais de grande escala. Nosso compromisso garante soluções sob medida para as necessidades de cada cliente. Na Casa dos Radiadores, qualidade e confiança são a base de cada projeto.</p>
+
+    <div class="link-container">
+
+        <a class="link" href="https://casadosradiadores.lojavirtual.com.br" target="_blank">
+            <img class="icon" src="https://cdn-icons-png.flaticon.com/512/1006/1006771.png" alt="Website">
+            Site Oficial
+        </a>
+
+        <a class="link" href="https://www.youtube.com/@casadosradiadorespalmas9437" target="_blank">
+            <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube">
+            YouTube
+        </a>
+
+        <a class="link" href="https://www.instagram.com/casadosradiadores.br/" target="_blank">
+            <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+            Instagram
+        </a>
+
+        <a class="link" href="https://wa.me/556332242014" target="_blank">
+            <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+            WhatsApp Loja 1
+        </a>
+
+        <a class="link" href="https://www.google.com/maps?q=Q.1012+Sul+Alameda+15,+01+-+QI+G+-+Plano+Diretor+Sul,+Palmas+-+TO,+CEP:77023-678" target="_blank">
+            <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Google_Maps_pin.svg" alt="Localizador">
+            <div class="address">
+                <strong>Loja 1</strong>
+                Q. 1012 Sul, Alameda 15, 01 - QI G<br>
+                Plano Diretor Sul, Palmas - TO<br>
+                CEP: 77023-678
+            </div>
+        </a>
+
+        <a class="link" href="https://wa.me/556332148863" target="_blank">
+            <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+            WhatsApp Loja 2
+        </a>
+
+        <a class="link" href="https://www.google.com/maps?q=Q.1012+Sul+Avenida+LO+25,+04+-+Plano+Diretor+Sul,+Palmas+-+TO,+CEP:77023-664" target="_blank">
+            <img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Google_Maps_pin.svg" alt="Localizador">
+            <div class="address">
+                <strong>Loja 2</strong>
+                Q. 1012 Sul, Avenida LO 25, 04<br>
+                Plano Diretor Sul, Palmas - TO<br>
+                CEP: 77023-664
+            </div>
+        </a>
+
+    </div>
+
+</body>
+</html>
